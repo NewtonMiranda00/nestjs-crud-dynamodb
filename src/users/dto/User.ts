@@ -1,5 +1,4 @@
-import { ScanCommand } from "@aws-sdk/client-dynamodb";
-import { DeleteCommand, DeleteCommandInput, GetCommand, GetCommandInput, PutCommand, PutCommandInput, ScanCommandInput } from "@aws-sdk/lib-dynamodb";
+import { ScanCommand, DeleteCommand, DeleteCommandInput, GetCommand, GetCommandInput, PutCommand, PutCommandInput, ScanCommandInput } from "@aws-sdk/lib-dynamodb";
 import docClient from "src/database/client";
 import { IUser } from "../models/User";
 
